@@ -1,0 +1,25 @@
+DAY 2 ASSIGNMENT:
+
+public class Day1Assignment
+{
+    public static void main(String Args[])
+    {
+        Employee e1=new Employee();
+        e1.show("Harsha","20","Guntur");
+    }
+}
+class Employee
+{
+    String Name;
+    int age;
+    String City;
+    void show(String Name, int age, String City);
+    {
+        this.Name=Name;
+        this.age=age;
+        this.City=City;
+        system.out.println("the Name is "+Name);
+        system.out.println("the age is "+age);
+        system.out.println("the City is "+City);
+    }
+}
